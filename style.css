@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&family=Space+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #023e8a;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    font-size: 3em;
+    color:rgb(160, 160, 160);
+    text-transform: uppercase;
+    transform: translate(210px, 310px);
+}
+
+.letter-list {
+    list-style: none;
+}
+
+.letter {
+    display: inline-block;
+}
+
+.letter-button {
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    color: rgb(160, 160, 160);
+    background-color: #03045e;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    border: 3.5px solid rgb(160, 160, 160);
+    transform: translate(-150px, -50px);
+}
+
+.game-instructions {
+    display: inline-block;
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    transform: translate(750px, 50px);
+    font-size: 1em;
+    color: rgb(160, 160, 160);
+}
+.play-button {
+    display: block;
+    width: 100px;
+    height: 50px;
+    font-weight: 700;
+    position: absolute;
+    transform: translate(750px, 345px);
+    border-radius: 0.6em;
+    font-size: 1.1em;
+    color: rgb(160, 160, 160);
+    background-color: #03045e;
+    text-transform: uppercase;
+}
+
+.play-button:hover {
+    background-color:#0077b6
+}
+
+.timer-and-counter {
+    font-weight: 700;
+    font-size: larger;
+    position: absolute;
+    transform: translate(50px, 480px);
+    font-size: 1.1em;
+    color: rgb(160, 160, 160);
+}
+
+.timer-and-counter .timer {
+    background-color: #03045e;
+    margin: 10px 0;
+    border: 3.5px solid rgb(160, 160, 160);
+    border-radius: 50%; 
+    display: block;
+    width: 60px; 
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.timer-and-counter .counter {
+    background-color: #03045e;
+    border: 3.5px solid rgb(160, 160, 160);
+    border-radius: 5px; 
+    display: block;
+    width: 60px; 
+    height: 40px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.instructions-title {
+    text-transform: uppercase;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: rgb(160, 160, 160);
+    font-size: 12px;
+    transform: translate(0px, 600px);
+}
+
+a {
+    color: rgb(160, 160, 160);
+    text-decoration: underline;
+  }
+
+.author-name {
+    font-weight: bold;
+    color:rgb(160, 160, 160);
+}
+
+#letter-a {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(500px, 100px);
+}
+#letter-b {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(562.17px,	107.85px);
+}
+
+#letter-c {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(620.44px, 130.92px);
+}
+
+#letter-d {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(671.14px, 167.7px);
+}
+#letter-e {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(711.08px,	216.04px);
+}
+#letter-f {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(737.76px,	272.75px);
+}
+#letter-g {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(749.51px,	334.30px);
+}
+#letter-h {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(745.57px,	396.85px);
+}
+#letter-i {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(726.21px,	456.44px);
+}
+#letter-j {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(692.63px,	509.36px);
+}
+
+#letter-l {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(646.95px,	552.25px);
+}
+#letter-m {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(592.03px,	582.44px);
+}
+#letter-n {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(531.33px,	598.03px);
+}
+
+#letter-ñ {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(468.67px,	598.03px);
+}
+
+ #letter-o {
+     position: absolute;
+     top: 0;
+     left: 0;
+    transform: translate(407.97px,	582.44px);
+ }
+
+ #letter-p {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(353.05px,	552.25px);
+}
+
+#letter-q {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(307.37px,	509.36px);
+}
+
+#letter-r {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(273.79px,	456.44px);
+}
+
+#letter-s {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(254.43px,	396.85px);
+}
+
+#letter-t {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(250.49px,	334.30px);
+}
+
+#letter-u {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(262.24px,	272.75px);
+}
+
+#letter-v {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(288.92px,	216.04px);
+}
+
+#letter-x {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(328.86px,	167.76px);
+}
+
+#letter-y {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(379.56px,	130.92px);
+}
+
+#letter-z {
+    position: absolute;
+    top: 0;
+    left: 0;
+   transform: translate(437.83px,	107.85px);
+}
+
+@keyframes blink {
+    0% {
+      color: rgb(160, 160, 160);
+    }
+    100% {
+      color: transparent;
+    }
+  }
+  
